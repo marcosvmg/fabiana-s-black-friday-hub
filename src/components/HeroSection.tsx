@@ -1,4 +1,5 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import fabianaAvatar from "@/assets/fabiana-avatar.jpg";
 
 const HeroSection = () => {
   return (
@@ -6,7 +7,7 @@ const HeroSection = () => {
       <div className="container mx-auto max-w-2xl text-center">
         <div className="flex justify-center mb-6 sm:mb-8">
           <Avatar className="w-32 h-32 sm:w-40 sm:h-40 border-4 border-accent shadow-2xl">
-            <AvatarImage src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400&h=400&fit=crop" alt="Fabiana" />
+            <AvatarImage src={fabianaAvatar} alt="Fabiana" />
             <AvatarFallback className="bg-secondary text-2xl font-bold">FB</AvatarFallback>
           </Avatar>
         </div>
