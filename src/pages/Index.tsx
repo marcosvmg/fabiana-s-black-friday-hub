@@ -1,13 +1,24 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import CountdownTimer from "@/components/CountdownTimer";
+import HeroSection from "@/components/HeroSection";
+import B2BSection from "@/components/B2BSection";
+import B2CSection from "@/components/B2CSection";
+import EbooksSection from "@/components/EbooksSection";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="min-h-screen bg-background">
+      <CountdownTimer />
+      <HeroSection />
+      <B2BSection />
+      <B2CSection />
+      <EbooksSection />
+      
+      <footer className="py-8 px-4 text-center border-t border-border">
+        <p className="text-sm text-muted-foreground">
+          © 2025 Revolução da Fisioterapia. Todos os direitos reservados.
+        </p>
+      </footer>
+    </main>
   );
 };
 
