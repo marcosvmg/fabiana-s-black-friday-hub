@@ -1,4 +1,4 @@
-import CountdownTimer from "@/components/CountdownTimer";
+import ScheduleAlertBar from "@/components/ScheduleAlertBar";
 import HeroSection from "@/components/HeroSection";
 import B2BSection from "@/components/B2BSection";
 import B2CSection from "@/components/B2CSection";
@@ -7,7 +7,7 @@ import EbooksSection from "@/components/EbooksSection";
 const Index = () => {
   return (
     <main className="min-h-screen bg-background">
-      <CountdownTimer />
+      <ScheduleAlertBar />
       <HeroSection />
       <B2BSection />
       <B2CSection />
